@@ -19,6 +19,7 @@ h2{
     font-size: 32px;
     font-weight: 800;
     color: rgb(13, 19, 33);
+    margin-bottom: 20px;
 }
 h3{
     font-size: 24px;
@@ -34,6 +35,11 @@ a{
     text-decoration: none;
     color: white;
 }
+.title-wrapper{
+    width: 852px;
+    margin: auto;
+}
+
 .p-dark-bg{
     color: rgb(255, 255, 255);
 }
@@ -47,6 +53,16 @@ a{
     color:white;
     padding: 21px 24px;
     font-size: 20px;
+    cursor: pointer; 
+}
+.btn-light{
+    border-radius: 8px;
+    color:rgb(13, 19, 33,  0.7);
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33,  0.4);
+    font-size: 20px;
+    border-radius: 0;
+    font-weight: 600;
     cursor: pointer; 
 }
 /* Global style End */
@@ -96,4 +112,174 @@ nav .btn-resume{
     align-items: center;   
 }
 /* Hero section end */
+
+/* About web section Start */
+
+.about-content-wrapper{
+    padding: 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 16px;
+}
+.feature{
+   padding: 48px;
+   display: flex;
+   text-align: left;
+   gap: 70px;
+   background-color: white;
+   border-radius: 16px;
+}
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+    align-items: left;
+}
+.feature-content a{
+    align-self: flex-start;
+}
+/* About web section end */
+
+/* Inspiration Section */
+
+.inspiration-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 16px;
+    align-items: center;
+}
+.inspiration-wrapper .video-wrapper{
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.inspiration-wrapper iframe{
+    border-radius: 16px;
+}
+
+
+/*Target Section*/
+
+.target-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 16px;
+    align-items: center;
+}
+.target-boxes{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+}
+.target-boxes .box{
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box img{
+    align-self: flex-start;
+}
+.target-boxes .box a{
+    color:rgb(13, 19, 33) ;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+.box-one{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.box-two{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.box-three{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.next-target-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 16px;
+    align-items: center;
+}
+.frameworks{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+.framework-box{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-radius: 16px;
+}
+.framework-box a{
+    color:rgb(13, 19, 33) ;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.framework-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/*Support section*/
+
+
+.support-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 16px;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 48px 64px;
+    border-radius: 16px;  
+}
+.support p{
+    color: rgb(255, 255, 255, .7);
+    font-weight: 300;
+}
+
+.support h2{
+    color:white;
+}
+
+.support .form input{
+    background-color: rgb(255, 255, 255); 
+    border-radius: 8px; 
+}
+.support .form input[type="text"]{
+    width:548px;
+    padding: 19px 20px 19px 20px;
+}
+.support .form input[type="submit"] {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px 20px 20px;
+    line-height: 1;
+}
 
